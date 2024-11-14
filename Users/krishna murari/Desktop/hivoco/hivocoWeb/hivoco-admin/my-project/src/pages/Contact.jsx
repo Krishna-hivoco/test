@@ -8,7 +8,7 @@ import api from "../api/axiosInstance";
 
 function Contact() {
   const [data, setData] = useState([]);
-  const heading = ["Name", "Email", "Company Name", "Message"];
+  const heading = ["Name", "Email", "Company Name", "Message","Action"];
 
   useEffect(() => {
     const fetchData = async () => {
